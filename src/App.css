@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Typography Ends */
+
+/* ROOT */
+
+:root {
+  --font-normal : 'Poppins', sans-serif;
+  --font-header : 'Montserrat', sans-serif;
+  --font-footer : 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ROOT Ends */
+
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body, html {
+  font-family: var(--font-normal);
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a, a:visited, a:focus, a:hover {
+  all: none;
+}
+
+.next-button {
+  color: white;
+  font-family: var(--font-normal);
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #7286D3;
+  border: none;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, .4);
+  transition: 300ms ease-in-out;
+  margin: 1rem 0;
+}
+
+.next-button:hover {
+  transform: translateY(3%);
+}
+
+.whiteboard {
+  font-family: var(--font-normal);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem;
   color: white;
+  width: 90%;
+  min-height: 70vh;
+  background-color: #8EA7E9;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .2);
+  margin-bottom: 5vh;
 }
 
-.App-link {
-  color: #61dafb;
+pre {
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-whiteboard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
