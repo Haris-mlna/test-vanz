@@ -60,7 +60,7 @@ function case1() {
     <div className="case-1">
       <div className="whiteboard">
     <h1 className="header-whiteboard">CASE 1</h1>
-    <pre>{"const = showName = (array) => {array = array = array.forEach( (element) => console.log(element.fruitName) )}"}</pre>
+    no.1<pre>{"const = showName = (array) => {array = array = array.forEach( (element) => console.log(element.fruitName) )}"}</pre>
     <pre>{'showName(fruits)'}</pre>
     <p>ATAU MENGGUNAKAN REACTJS</p>
     <pre>{"{fruits.map((fruit) => (<div key={fruit.fruitName}>{fruit.fruitName}</div>))}"}</pre>
@@ -71,6 +71,9 @@ function case1() {
           {fruit.fruitName}
         </div>
       ))}
+      <br/>
+      no.2
+      <pre></pre>
     </div>
       </div>
       <Link to="/case2">

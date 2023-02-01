@@ -1,10 +1,14 @@
-import React from 'react'
-import './case3.css'
+import React from "react";
+import "./case3.css";
 
 function case3() {
   return (
-    <div>case3</div>
-  )
+    <>
+      <header></header>
+      <main></main>
+      <footer></footer>
+    </>
+  );
 }
 
-export default case3
+export default case3;

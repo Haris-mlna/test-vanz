@@ -63,6 +63,7 @@ a, a:visited, a:focus, a:hover {
 
 pre {
   font-size: 1rem;
+  margin: 0;
 }
 
 .header-whiteboard {

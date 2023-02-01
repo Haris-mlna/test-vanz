@@ -64,7 +64,6 @@ const case2 = () => {
     <div className="case-2">
       <div className="whiteboard">
         <h1 className="header-whiteboard">CASE 2</h1>
-        <p>Recursion</p>
         <pre>
           const countComment ={">"} (comment) ={">"} {"{"}
           <br />{' '}if(comment.replies){"{"}
